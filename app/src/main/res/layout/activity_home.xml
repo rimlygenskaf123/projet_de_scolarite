@@ -14,26 +14,30 @@
         tools:layout_editor_absoluteY="-16dp">
 
 
-        <EditText
-            android:id="@+id/inscrition"
+        <Button
+            android:id="@+id/inscritiontext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="200dp"
-            android:background="#f2f2f2"
-            android:hint="Inscription"
+            android:background="#00FF00"
+            android:text="Inscription"
+            android:textColor="@color/black"
+            android:textSize="20dp"
             android:padding="20dp"/>
 
-        <EditText
-            android:id="@+id/visualisation"
+        <Button
+            android:id="@+id/visualisationtxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="200dp"
-            android:background="#f2f2f2"
-            android:hint="Visualisation"
+            android:background="#0000FF"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Visualisation"
             android:padding="20dp" />
 
 
